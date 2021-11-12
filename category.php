@@ -61,6 +61,7 @@
 						    if($inc == 1) echo "<div class='col-sm-4'></div><div class='col-sm-4'></div></div>"; 
 							if($inc == 2) echo "<div class='col-sm-4'></div></div>";
 						}
+						
 						catch(PDOException $e){
 							echo "There is some problem in connection: " . $e->getMessage();
 						}

@@ -45,6 +45,12 @@
                       <input type="text" class="form-control" id="edit_name" name="name">
                     </div>
                 </div>
+                <div class="form-group">
+                  <label for="edit_cat_slug" class="col-sm-3 control-label">Category Description</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="edit_cat_slug" name="cat_slug">
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>

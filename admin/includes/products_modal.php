@@ -49,12 +49,19 @@
                   <div class="col-sm-5">
                     <input type="text" class="form-control" id="price" name="price" required>
                   </div>
+                  <!-- Stocks -->
+                  <label for="quantity" class="col-sm-1 control-label">Stocks</label>
+
+                  <div class="col-sm-5">
+                    <input type="text" class="form-control" id="quantity" name="quantity" required>
+                  </div>
 
                   <label for="photo" class="col-sm-1 control-label">Photo</label>
 
                   <div class="col-sm-5">
-                    <input type="file" id="photo" name="photo">
+                    <input type="file" class="col-sm-9 control-label" id="photo" name="photo">
                   </div>
+
                 </div>
                 <p><b>Description</b></p>
                 <div class="form-group">

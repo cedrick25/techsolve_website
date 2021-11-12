@@ -7,6 +7,7 @@
 		$slug = slugify($name);
 		$category = $_POST['category'];
 		$price = $_POST['price'];
+		$quantity = $_POST['quantity'];
 		$description = $_POST['description'];
 		$filename = $_FILES['photo']['name'];
 
@@ -30,8 +31,8 @@
 			}
 
 			try{
-				$stmt = $conn->prepare("INSERT INTO products (category_id, name, description, slug, price, photo) VALUES (:category, :name, :description, :slug, :price, :photo)");
-				$stmt->execute(['category'=>$category, 'name'=>$name, 'description'=>$description, 'slug'=>$slug, 'price'=>$price, 'photo'=>$new_filename]);
+				$stmt = $conn->prepare("INSERT INTO products (category_id, name, description, slug, price, quantity, photo) VALUES (:category, :name, :description, :slug, :price, :quantity, :photo)");
+				$stmt->execute(['category'=>$category, 'name'=>$name, 'description'=>$description, 'slug'=>$slug, 'price'=>$price, 'quantity'=>$quantity, 'photo'=>$new_filename]);
 				$_SESSION['success'] = 'User added successfully';
 
 			}
