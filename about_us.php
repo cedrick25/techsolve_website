@@ -23,7 +23,8 @@
 
                         As technology evolves, our technical persons continuously strive to learn and undergo diverse technology 
                         training courses to cope up with the constant technological development and to serve our clients the best way 
-                        that we can.</p>
+                        that we can. :P
+                      </p>
 </p>
                 </div>
             </div>
